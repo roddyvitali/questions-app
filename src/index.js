@@ -13,17 +13,16 @@ import notifyMe from 'Components/Notifications/Notifications'
 import './index.css';
 
 const Index = () => {
-  return <div>
-    <Lateral/>
+  return <div className="main">
+          <Lateral/>
 
-    {/* <Editor /> */}
-    <div className="container-question">
-      <Question />
-      <Alternatives/>
-    </div>
-
-    <p onClick={ ()=> notifyMe() }>Apretar</p>
-  </div>;
+          {/* <Editor /> */}
+          <div className="container-question">
+            <Question />
+            <Alternatives/>
+            <p onClick={ ()=> notifyMe() }>Apretar</p>
+          </div>
+        </div>;
 };
 
 ReactDOM.render(

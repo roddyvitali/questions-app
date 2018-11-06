@@ -1,6 +1,18 @@
 .menu-lateral {
-  width: 64px;
+  width: 80px;
   height: 100vh;
   background: #0f0f0f;
   color: #fff;
+}
+.menu-lateral ul{
+  padding: 0;
+  margin: 0;
+}
+.menu-lateral ul li{
+  height: 64px;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  line-height: 64px;
+
 }

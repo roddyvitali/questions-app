@@ -4,7 +4,10 @@ class Lateral extends Component {
   render(){
     return(
       <div className="menu-lateral">
-        asa
+        <ul>
+          <li>A</li>
+          <li>B</li>
+        </ul>
       </div>
     );
   }
