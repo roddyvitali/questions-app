@@ -10,7 +10,7 @@ class Lateral extends Component {
           <li><FontAwesomeIcon icon="stroopwafel" size="2x" color="#aaa"/></li>
           <li><FontAwesomeIcon icon="certificate" size="2x" color="#aaa"/></li>
           <li><FontAwesomeIcon icon="ribbon" size="2x" color="#aaa"/></li>
-          <ul className="menu-child">
+          <ul className="menu-lasts">
             <li><FontAwesomeIcon icon="question" size="2x" color="#aaa"/></li>
             <li><FontAwesomeIcon icon="power-off" size="2x" color="#aaa"/></li>
           </ul>

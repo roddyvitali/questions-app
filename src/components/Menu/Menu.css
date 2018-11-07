@@ -12,7 +12,10 @@
 }
 
 .menu-lasts {
-
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
 }
 .menu-child li, .menu-lasts li{
   height: 50px;
