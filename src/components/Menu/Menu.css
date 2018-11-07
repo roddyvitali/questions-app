@@ -4,15 +4,34 @@
   background: #0f0f0f;
   color: #fff;
 }
-.menu-lateral ul{
+.menu-child{
   padding: 0;
   margin: 0;
+  height: 100%;
+  position: relative;
 }
-.menu-lateral ul li{
-  height: 64px;
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  line-height: 64px;
+
+.menu-lasts {
 
 }
+.menu-child li, .menu-lasts li{
+  height: 50px;
+  padding: 5px 0;
+  /* padding-bottom: 15px; */
+  list-style-type: none;
+  text-align: center;
+  width: 80px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.menu-child li:first-child, .menu-lasts li:first-child{
+  padding-top: 20px;
+}
+.menu-child li:last-child{
+  /* padding-bottom: 25px; */
+}
+
+/* .menu-child li:nth-last-child(-n+2) {
+  position: absolute;
+  bottom: 0;
+} */

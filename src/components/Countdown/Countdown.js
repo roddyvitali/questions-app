@@ -57,7 +57,7 @@ class Countdown extends Component {
   render() {
     const { seconds,  minutes } = this.state;
     const { className } = this.props;
-    console.log(className);
+    // console.log(className);
     return (
       <h1 className={className} onClick={()=>this.startCountDown()}>
         {minutes}:{seconds}
